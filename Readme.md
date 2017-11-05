@@ -4,6 +4,11 @@ Simpliest way to install kubernetes is [minikube][]. After installation just
 run `minikube start` it will start a cluster and will configure kubectl for
 you. To stop cluster run `minikube` stop.
 
+On arch it is (install docker-machine-kvm because virtualbox is super slow):
+
+  yaourt minikube
+  yaourt docker-machine-kvm
+
 # Installing istio
 
   source setup-istio.sh
